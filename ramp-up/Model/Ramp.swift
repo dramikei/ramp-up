@@ -38,7 +38,7 @@ class Ramp {
         node.runAction(rotate)
     }
     
-    class func getRampForName(name: String) -> SCNNode {
+    class func getRampForName(rampName: String) -> SCNNode {
         switch rampName {
         case "pipe":
             return Ramp.getPipe()
